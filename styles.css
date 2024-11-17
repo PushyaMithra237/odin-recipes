@@ -3,8 +3,13 @@ body{
 }
 
 .gobi{
-  text-align:center;
-  text-underline-offset: auto;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  border: 3px solid rgb(19, 105, 19);
+  margin-bottom: 13px;
+  width: fit-content;
+  background-color: burlywood;
 }
 .imgconta {
   text-align: center; /* Centers content inside this container */
@@ -12,7 +17,11 @@ body{
 .imgconta{
   display: block;
   margin: auto;
-  width: 50%;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  border: 10px solid rgb(19, 105, 19);
+
 }
 .machu{
   font-size: 24px;
@@ -26,9 +35,19 @@ body{
 }
 
 .unoder,.order{
+  width: 400px;
+  border: 3px solid rgb(19, 105, 19);
+  background-color: burlywood;
+  display: flex;
   text-decoration: wavy;
   margin-left: 100px;
   font-size: 28px;
+}
+
+.order{
+  width: 500px;
+  margin-top: 15px;
+
 }
 
 .details{
@@ -37,7 +56,9 @@ body{
 }
 
 .thumbsup{
-  margin-left: 100px;
+  display: block; /* Makes the button a block element */
+  margin: 0 auto; 
+  margin-top: 13px;
   background-color: rgb(214, 170, 58);/* Button background color */
   color:white; /* Button text color */
   padding: 10px 20px; /* Padding inside the button */
@@ -45,9 +66,12 @@ body{
   border-radius: 5px; /* Rounded corners */
   font-size: 16px; /* Font size */
   cursor: pointer; /* Change cursor to pointer on hover */
+  
 }
 
 .thumbsup:hover{
   background-color: rgb(163, 69, 69);
+  
+
 }
 
